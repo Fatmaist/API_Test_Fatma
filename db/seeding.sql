@@ -25,13 +25,13 @@
 -- ('Banner 5', 'https://nutech-integrasi.app/dummy.jpg', 'Lerem Ipsum Dolor sit amet'),
 -- ('Banner 6', 'https://nutech-integrasi.app/dummy.jpg', 'Lerem Ipsum Dolor sit amet');
 
-CREATE TABLE services (
-    service_code VARCHAR(15) NOT NULL PRIMARY KEY,
-    service_name VARCHAR(255) NOT NULL,
-    service_icon VARCHAR(255) NOT NULL,
-    service_tarif INT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
+-- CREATE TABLE services (
+--     service_code VARCHAR(15) NOT NULL PRIMARY KEY,
+--     service_name VARCHAR(255) NOT NULL,
+--     service_icon VARCHAR(255) NOT NULL,
+--     service_tarif INT NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- )
 
 -- INSERT INTO services (service_code, service_name, service_icon, service_tarif) VALUES
 -- ('PAJAK', 'Pajak PBB', 'https://minio.nutech-integrasi.com/take-home-test/services/PBB.png', 40000),
